@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b858cbe810712b40b8b1db931379020, type: 3}
+  m_Name: S4 Quest
+  m_EditorClassIdentifier: 
+  storyText: "You ask the woman what's wrong and she responds with, \"I lost my pet
+    dog! I was out in the field picking some flowers when a pack of wild boars approached.
+    They looked to be very aggressive and territorial and started charging at me.
+    My dog, Spot, rushed at them to protect me and I ran away as fast as I could.
+    As I was running, I heard Spot yelp and then he went silent. I fear that the boars
+    killed him. He gave his life to protect me. Could you go out and avenge Spot for
+    me by killing a wild boar? Surely I could reward you.\"\r\n\r\nWould you like
+    to help the woman?\r\n\r\n1. Accept the mission to go out avenge Spot.\r\n\r\n2.
+    Tell her that you can't really help right now, you have better things to do."
+  nextStates:
+  - {fileID: 11400000, guid: 29fd00049275a9149b59351655b3a583, type: 2}
+  - {fileID: 11400000, guid: d7183602160ca0145947128345140f16, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b858cbe810712b40b8b1db931379020, type: 3}
+  m_Name: S17 VillageSquareAfterShop
+  m_EditorClassIdentifier: 
+  storyText: "Now back in the village square, you're again greeted with the site of
+    some small houses that appear to be living quarters, a tavern, and the gear shop.
+    After seeing all of the amazing gear available in shops, you're filled with a
+    new determination to start making some coin so you can outfit your character in
+    some cool gear. How would one go about earning currency in a game like this though?\r\n\r\nWhere
+    would you like to go now?\r\n\r\n1. Go into the tavern.\r\n\r\n2. Head out to
+    where you saw the wild boars."
+  nextStates:
+  - {fileID: 11400000, guid: 60132d56b4fef7c48acedafa94cb74dd, type: 2}
+  - {fileID: 11400000, guid: 17f1367e1a3fd7946b40dc4cfb3aa3fa, type: 2}

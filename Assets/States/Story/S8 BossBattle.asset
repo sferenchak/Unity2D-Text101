@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b858cbe810712b40b8b1db931379020, type: 3}
+  m_Name: S8 BossBattle
+  m_EditorClassIdentifier: 
+  storyText: "You begin moving towards the large wild boar while charging up your
+    sword skill. At the optimal time, you slash into Spot's killer and see that he
+    must be stronger than the other boars. After the first attack, his health bar
+    is down to half. You prepare another attack and it appears Spot's killer is charging
+    a special attack of its own, called \"Wild Charge.\" You notice that his charge
+    time is slightly shorter than yours and you deftly sidestep the attack and unleash
+    your own attack just as the wild boar rushes past you, slicing all the way down
+    its side.\r\n\r\nSpot's killer is vanquished and shatters into the glittering
+    fragments that are becoming oh so familiar to you at this point in your adventure.
+    You receive an item called, \"Rough Boar Hide\" after the fragments disappear.\r\n\r\nMaybe
+    that can be used for something later. For now, you should return to the distraught
+    woman and get your reward.\r\n\r\n1. Return to the distraught woman in the tavern."
+  nextStates:
+  - {fileID: 11400000, guid: 9c7d0e2ff1c39c0429f4e021883590bb, type: 2}

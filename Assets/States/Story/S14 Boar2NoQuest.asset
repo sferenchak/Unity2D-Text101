@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b858cbe810712b40b8b1db931379020, type: 3}
+  m_Name: S14 Boar2NoQuest
+  m_EditorClassIdentifier: 
+  storyText: "Despite that fact that you received very little experience from the
+    last wild boar that you killed, you're determined to keep mindlessly killing wild
+    boars. You approach the next nearest level 1 wild boar and it begins to lunge
+    at you, just like the last one.\r\n\r\nWhat will you do?\r\n\r\n1. Run away as
+    fast as you can!\r\n\r\n2. Meet the boar's attack head-on and activate your sword
+    skill.\r\n\r\n3. Stand there and see what happens."
+  nextStates:
+  - {fileID: 11400000, guid: 389d1fb49082e384490fbfe42a57d13e, type: 2}
+  - {fileID: 11400000, guid: ba505e47f1fca184387935449cdca94a, type: 2}
+  - {fileID: 11400000, guid: 063bda6c1a0f80046877ed79ce62f3ab, type: 2}

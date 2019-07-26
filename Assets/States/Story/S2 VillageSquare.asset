@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b858cbe810712b40b8b1db931379020, type: 3}
+  m_Name: S2 VillageSquare
+  m_EditorClassIdentifier: 
+  storyText: 'You approach the village square. There are a few small buildings that
+    look to be small homesteads and a couple of buildings marked with signs. There
+    is a sign that looks like a mug of beer. You assume this is some sort of tavern.
+    There is a sign in front of another building with what appears to be a shield
+    with two crossed swords. This must be the weapon and armor shop.
+
+
+    Where would you like to go?
+
+    1. Go into the tavern.
+
+    2. Go into the weapon and armor shop.'
+  nextStates:
+  - {fileID: 11400000, guid: 60132d56b4fef7c48acedafa94cb74dd, type: 2}
+  - {fileID: 11400000, guid: cc50197e7b04a204885cc8ef92e7bbba, type: 2}

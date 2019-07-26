@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b858cbe810712b40b8b1db931379020, type: 3}
+  m_Name: S16 GearShopTheft
+  m_EditorClassIdentifier: 
+  storyText: "You grab a blackened metal greatsword with a decorative hilt off the
+    wall. You equip it and see that your attack damage goes up by nearly 100 points.
+    Just as you notice your attack damage number increase you feel a sharp pain in
+    the small of your back. You hear someone yelling, \"This is what happens to thieves!\"
+    and you notice on your heads-up display that your health bar has reached red status
+    and the bar continues to slowly deplete. \r\n\r\nPress 1 to continue.\r\n\r\n1.
+    Continue to see what happens."
+  nextStates:
+  - {fileID: 11400000, guid: 37b99488aa65b2749a737acdf10944e8, type: 2}

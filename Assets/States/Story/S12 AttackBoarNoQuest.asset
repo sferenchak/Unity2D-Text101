@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b858cbe810712b40b8b1db931379020, type: 3}
+  m_Name: S12 AttackBoarNoQuest
+  m_EditorClassIdentifier: 
+  storyText: "You start charging your sword skill. As the boar gets close, you bring
+    your sword down rapidly and the meat of your blade slashes into the top of its
+    skull. The approach of the boar stops and after a split second, the boar shatters
+    into a bunch of glittering shards of light that slowly fade out of existence.
+    You gain barely enough experience points to move your experience bar a visible
+    amount. Maybe there is a quest in the village that can be performed that may provide
+    more experience.\r\n\r\nWhat will you do?\r\n\r\n1. Head over to the village to
+    check things out.\r\n\r\n2. Attack another wild boar."
+  nextStates:
+  - {fileID: 11400000, guid: 57841bb2cddf589408c3233d365b81d1, type: 2}
+  - {fileID: 11400000, guid: cb8ab589e837553439d55c2b5f556e19, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b858cbe810712b40b8b1db931379020, type: 3}
+  m_Name: S18 VillageSquareAfterTavern
+  m_EditorClassIdentifier: 
+  storyText: "Upon reaching the village square again, you can't help but think that
+    you should have approached the distraught woman to see what was wrong. You don't
+    want to sit idly by if there is some way that you may be able to help.\r\n\r\nWhat
+    would you like to do?\r\n\r\n1. Return to the tavern and approach the distraught
+    woman."
+  nextStates:
+  - {fileID: 11400000, guid: 2e990fb0059eeef4faefffdaa2c0c787, type: 2}

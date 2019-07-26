@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b858cbe810712b40b8b1db931379020, type: 3}
+  m_Name: S15 GearShop
+  m_EditorClassIdentifier: 
+  storyText: "You enter the gear shop and see a large collection of fancy weapons
+    and armor in all styles and qualities. Being a new player, with no more than a
+    couple of copper to your name, you can sense that everything in here is far beyond
+    what you can afford.\r\n\r\nWhat would you like to do?\r\n\r\n1. Attempt to steal
+    a weapon off the wall.\r\n\r\n2. Return to the village square."
+  nextStates:
+  - {fileID: 11400000, guid: b290dcdb22cd37b48a089471f210be06, type: 2}
+  - {fileID: 11400000, guid: b5bc8b00985fe8445bbd511c6ac987c2, type: 2}

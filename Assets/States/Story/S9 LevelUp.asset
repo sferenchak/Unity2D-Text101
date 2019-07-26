@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b858cbe810712b40b8b1db931379020, type: 3}
+  m_Name: S9 LevelUp
+  m_EditorClassIdentifier: 
+  storyText: "You're back in the tavern and let the distraught woman know that you
+    have avenged her brave dog, Spot. She thanks you profusely and provides you with
+    2 silver for your trouble. Upon receiving your reward, you see a flourish of light
+    go up around your avatar and hear a triumphant whoosh of sound. You look next
+    to the health bar on your heads-up display and see that next to your name is a
+    number 2. You have leveled up! You're filled with a strong sense of accomplishment.
+    In the real world, you're just a normal guy working at a tech company building
+    websites for various businesses, but in this world, you're an accomplished adventurer
+    that has just completed your first mission to help one of its citizens. You don't
+    know what your next adventure will be, but you're excited to find out.\r\n\r\n1.
+    Continue your adventure.\r\n\r\n2. Log out to continue your adventures another
+    day."
+  nextStates:
+  - {fileID: 11400000, guid: 833583e197a7df646835e9a89e5d26b9, type: 2}

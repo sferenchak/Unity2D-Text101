@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b858cbe810712b40b8b1db931379020, type: 3}
+  m_Name: Introduction
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome to Noob Adventure Online, a text-based adventure game where
+    you are a brand new player in the hotly anticipated VRMMORPG, Aldhier Online.
+    Your goal is to gain your first level without dying. In this game, death means
+    that your character is deleted forever and you''d have to start over.
+
+
+    At each stage you''ll be asked to make a decision to continue your adventure.
+    The number of each choice corresponds to the number on your keyboard. For example,
+    to select the first option, press 1 on your keyboard.
+
+
+    At any point in time, press the ''q'' key to quit.
+
+
+    Press ''1'' to begin your quest.'
+  nextStates:
+  - {fileID: 11400000, guid: c32120b05ff7315428d09face20bebb1, type: 2}

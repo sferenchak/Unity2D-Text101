@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b858cbe810712b40b8b1db931379020, type: 3}
+  m_Name: S6 ScoutBoarField
+  m_EditorClassIdentifier: 
+  storyText: "You arrive at the edge of the field of boars. There must be close to
+    ten wild boars in this relatively small field. They're mostly grazing and wandering
+    around aimlessly. One particular boar catches your eye though. It's larger than
+    the rest of them and seems to have a bit of blood and fur on its tusks. That must
+    be the one that killed Spot. It's located in the middle of the pack of boars.\r\n\r\nWhat
+    would you like to do?\r\n\r\n1. Go straight after the wild boar that killed Spot.\r\n\r\n2.
+    Clear out the herd a bit by picking off the other wild boars one by one."
+  nextStates:
+  - {fileID: 11400000, guid: f7d59abb035b56742b4a08e6e6ca10b2, type: 2}
+  - {fileID: 11400000, guid: f9f27d1413531864fa474656f43b6b97, type: 2}
