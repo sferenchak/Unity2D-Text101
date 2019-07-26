@@ -37,6 +37,11 @@ public class AdventureGame : MonoBehaviour
             }
         }
 
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            state = startingState;
+        }
+
         textComponent.text = state.GetStateStory();
     }
 }

@@ -26,3 +26,4 @@ MonoBehaviour:
     day."
   nextStates:
   - {fileID: 11400000, guid: 833583e197a7df646835e9a89e5d26b9, type: 2}
+  - {fileID: 11400000, guid: 833583e197a7df646835e9a89e5d26b9, type: 2}
